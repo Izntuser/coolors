@@ -25,7 +25,7 @@ pallettes.forEach(element => {
     colors = getColorsFromHash(element)
     palletesHtml += `
     <div style="margin: 60px 30px 0;">
-        <a href="${'mypage.html'+element}" style="text-decoration:none; color: black">
+        <a href="${'index.html'+element}" style="text-decoration:none; color: black">
             <div style="border-radius: 15px; display: flex; flex-direction: row;">
                 <div style="background-color: ${colors[0]}; padding: 70px 7px 70px; border-radius: 10px 0 0 10px; color: ${setTextColor(colors[0])}" class="col">
                     ${colors[0]}
